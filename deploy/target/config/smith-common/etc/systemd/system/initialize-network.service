@@ -1,0 +1,12 @@
+[Unit]
+Description=Initialize network configuration via smith-config
+
+[Service]
+Type=oneshot
+RemainAfterExit=true
+Environment="GEM_HOME=/usr/local/lib/gems/2.1.0"
+ExecStop=/bin/true
+ExecStart=/usr/local/bin/smith-config init
+
+[Install]
+WantedBy=multi-user.target

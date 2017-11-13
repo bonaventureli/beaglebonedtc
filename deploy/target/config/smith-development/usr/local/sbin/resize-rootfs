@@ -1,0 +1,13 @@
+#!/bin/sh
+
+device=/dev/mmcblk0
+
+sfdisk --force --no-reread --in-order --Linux --unit S ${device} <<-__EOF__
+2048,,,-
+__EOF__
+
+# The existence of this file triggers a filesystem resize on the next reboot
+touch /var/local/resize-rootfs
+
+echo
+echo "Reboot to complete filesystem resize"

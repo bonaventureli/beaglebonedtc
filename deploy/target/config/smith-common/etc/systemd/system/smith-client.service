@@ -1,0 +1,13 @@
+[Unit]
+Description=Smith firmware web client
+Wants=smith.service
+After=smith.service
+
+[Service]
+Environment="GEM_HOME=/usr/local/lib/gems/2.1.0"
+ExecStart=/usr/local/bin/smith-client --log-level=info --brief-log-format
+Restart=on-failure
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target
