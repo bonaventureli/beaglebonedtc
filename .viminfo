@@ -8,8 +8,9 @@
 # hlsearch on (H) or off (h):
 ~h
 # Command Line History (newest to oldest):
-:wq
 :q
+:q:q
+:wq
 :wq:wq
 
 # Search String History (newest to oldest):
@@ -25,13 +26,19 @@
 	#
 
 # File marks:
-'0  8  17  ~/wlan0.sh
-'1  29  17  /etc/network/interfaces
-'2  153  0  /opt/bb.org-overlays/src/arm/univ-hdmi-00A0.dts
-'3  1  0  /opt/source/list.txt
-'4  13  0  ~/.bashrc
+'0  49  0  /opt/bb.org-overlays/readme.md
+'1  125  0  /opt/bb.org-overlays/src/arm/BB-BONE-LCD3-01-00A2.dts
+'2  8  17  ~/wlan0.sh
+'3  29  17  /etc/network/interfaces
+'4  153  0  /opt/bb.org-overlays/src/arm/univ-hdmi-00A0.dts
+'5  1  0  /opt/source/list.txt
+'6  13  0  ~/.bashrc
 
 # Jumplist (newest first):
+-'  49  0  /opt/bb.org-overlays/readme.md
+-'  1  0  /opt/bb.org-overlays/readme.md
+-'  125  0  /opt/bb.org-overlays/src/arm/BB-BONE-LCD3-01-00A2.dts
+-'  1  0  /opt/bb.org-overlays/src/arm/BB-BONE-LCD3-01-00A2.dts
 -'  8  17  ~/wlan0.sh
 -'  1  0  ~/wlan0.sh
 -'  29  17  /etc/network/interfaces
@@ -86,8 +93,55 @@
 -'  1  0  ~/.bashrc
 -'  13  0  ~/.bashrc
 -'  1  0  ~/.bashrc
+-'  8  17  ~/wlan0.sh
+-'  1  0  ~/wlan0.sh
+-'  29  17  /etc/network/interfaces
+-'  1  0  /etc/network/interfaces
+-'  153  0  /opt/bb.org-overlays/src/arm/univ-hdmi-00A0.dts
+-'  1  0  /opt/bb.org-overlays/src/arm/univ-hdmi-00A0.dts
+-'  1  0  /opt/source/list.txt
+-'  13  0  ~/.bashrc
+-'  1  0  ~/.bashrc
+-'  13  0  ~/.bashrc
+-'  1  0  ~/.bashrc
+-'  1  0  /opt/source/list.txt
+-'  13  0  ~/.bashrc
+-'  1  0  ~/.bashrc
+-'  13  0  ~/.bashrc
+-'  1  0  ~/.bashrc
+-'  153  0  /opt/bb.org-overlays/src/arm/univ-hdmi-00A0.dts
+-'  1  0  /opt/bb.org-overlays/src/arm/univ-hdmi-00A0.dts
+-'  1  0  /opt/source/list.txt
+-'  13  0  ~/.bashrc
+-'  1  0  ~/.bashrc
+-'  13  0  ~/.bashrc
+-'  1  0  ~/.bashrc
+-'  1  0  /opt/source/list.txt
+-'  13  0  ~/.bashrc
+-'  1  0  ~/.bashrc
+-'  13  0  ~/.bashrc
+-'  1  0  ~/.bashrc
+-'  29  17  /etc/network/interfaces
+-'  1  0  /etc/network/interfaces
+-'  153  0  /opt/bb.org-overlays/src/arm/univ-hdmi-00A0.dts
+-'  1  0  /opt/bb.org-overlays/src/arm/univ-hdmi-00A0.dts
+-'  1  0  /opt/source/list.txt
+-'  13  0  ~/.bashrc
+-'  1  0  ~/.bashrc
+-'  13  0  ~/.bashrc
+-'  1  0  ~/.bashrc
+-'  1  0  /opt/source/list.txt
+-'  13  0  ~/.bashrc
+-'  1  0  ~/.bashrc
+-'  13  0  ~/.bashrc
 
 # History of marks within files (newest to oldest):
+
+> /opt/bb.org-overlays/readme.md
+	"	49	0
+
+> /opt/bb.org-overlays/src/arm/BB-BONE-LCD3-01-00A2.dts
+	"	125	0
 
 > ~/wlan0.sh
 	"	8	17
